@@ -51,6 +51,14 @@ namespace HelloWorld //used to organize my code and its like a container for cla
             int y = 6;
             int z = x * y;
             Console.WriteLine("The result of x * y is: " + z);
+
+            //declare multiple variables
+            int a = 2, b = 10, c = 13;
+            Console.WriteLine(a + b + c); //printsx the sum of all integers
+
+            int q, m, d;
+            m = q = d = 50;
+            Console.WriteLine(q + m + d); //prints the sum of all integers
         }
     }
 

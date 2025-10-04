@@ -34,6 +34,11 @@ namespace HelloWorld //used to organize my code and its like a container for cla
             int Mynum = 20;
             Mynum = 25; //Now the value has been updated to 25
             Console.WriteLine(Mynum);
+
+            //constants
+            //if you dont want otehrs to change your variable value, then we can add const before the vraible type
+            const int myConstNumber = 10; //we do have to assign a value when we declare a constant
+            Console.WriteLine("this is the example of const method: " + myConstNumber);
         }
     }
 }

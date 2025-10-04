@@ -17,6 +17,23 @@ namespace HelloWorld //used to organize my code and its like a container for cla
             Console.Write("Hello ");
             Console.Write("World!");
 
+
+            //variables
+            int myNum = 15; //integer (whole number)
+            bool myBool = true; //boolean (true or false)
+            char myChar = 'D'; //character (single character)
+            double myDouble = 19.99; //double (floating point number)
+            string myText = "Hello"; //string (text)
+
+            Console.WriteLine(myNum); //prints the variable value
+            Console.WriteLine(myBool);
+            Console.WriteLine(myChar);
+            Console.WriteLine(myDouble);
+            Console.WriteLine(myText);
+
+            int Mynum = 20;
+            Mynum = 25; //Now the value has been updated to 25
+            Console.WriteLine(Mynum);
         }
     }
 }

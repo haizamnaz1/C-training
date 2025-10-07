@@ -64,6 +64,35 @@ namespace HelloWorld //used to organize my code and its like a container for cla
             int l = 60; //l really doesnt specifiy what it is
             int hoursPerMinute = 60; //this is a better identifier because it specifies what the variable is
             Console.WriteLine("The value of l is: " + l);
+
+            //data types
+
+            //numbers
+            int M = 40;
+            long N = 1500000000L; //long is used for larger numbers and we add L at the end
+            float O = 5.75F; //float is used for decimal numbers and we add F at the end
+            double P = 19.66D; //double is also used for decimal numbers and we add D at the end
+            Console.WriteLine("The value of M is: " +   M + N + O + P);
+            //text
+            char myGrade = 'a'; //char is used for single characters and we use single quotes
+            string myname = "jony boy doe"; //string is used for text and we use double quotes
+            Console.WriteLine("My name is " + myname + " and i scored " + myGrade);
+
+            //true or false
+            bool isCsharpFun = true; //boolean is used for true or false values
+            bool isFishTasty = false;
+            Console.WriteLine("person A: is C# fun bruh? " + "person B: " + isCsharpFun + "is fish tasty?" + " " + isFishTasty);
+
+            if (isCsharpFun == true) //tried something new here, didnt look up at things just did it myself 
+            { //== what is does is it compares the given statements and if the given statement matches
+                Console.WriteLine("C# is fun");// then it will print this
+            }
+            else
+            {
+                Console.WriteLine("C# is not fun");//if the given statement doesnt match then it will print this
+            }
+
+
         }
     }
 

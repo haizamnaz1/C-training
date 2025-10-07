@@ -59,6 +59,11 @@ namespace HelloWorld //used to organize my code and its like a container for cla
             int q, m, d;
             m = q = d = 50;
             Console.WriteLine(q + m + d); //prints the sum of all integers
+
+            //indentifyers
+            int l = 60; //l really doesnt specifiy what it is
+            int hoursPerMinute = 60; //this is a better identifier because it specifies what the variable is
+            Console.WriteLine("The value of l is: " + l);
         }
     }
 
